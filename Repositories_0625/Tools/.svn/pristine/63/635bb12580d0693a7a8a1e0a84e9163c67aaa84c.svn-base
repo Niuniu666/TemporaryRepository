@@ -1,0 +1,18 @@
+版本号：V1.8_Tools_20160905
+说明：修改了根据屏幕密度转换字体大小；
+      Util_Global去掉静态方法。
+
+版本号：V1.7_Tools_20160818
+说明：增加了HKCircleBar，用来实现弧形滚动条
+
+版本号：V1.6_Tools_20160621
+说明：HKScrollBar增加了滑块模式
+
+版本号：V1.5_Tools_20160518
+说明：HKButtonText修改文本显示不全问题，默认文本显示区域同按钮背景区域
+
+版本号：V1.4_Tools_20160426
+说明：HKSeekBarText增加步进和单位显示
+
+版本号：V1.3_Tools_20160421
+说明：HKButtonText默认点击间隔为500毫秒

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <declare-styleable name="HKButton">
+        <attr name="btn_pic_up" format="reference"/>
+        <attr name="btn_pic_down" format="reference"/>
+        <attr name="btn_pic_focus" format="reference"/>
+        <attr name="btn_pic_disable" format="reference"/>
+        <attr name="btn_icon_up" format="reference"/>
+        <attr name="btn_icon_down" format="reference"/>
+        <attr name="btn_icon_focus" format="reference"/>
+        <attr name="btn_icon_disable" format="reference"/>
+        <attr name="btn_icon_x" format="dimension"/>
+        <attr name="btn_icon_y" format="dimension"/>
+        <attr name="btn_pic_scale" format="boolean"/>        
+        <attr name="btn_text" format="string"/>
+        <attr name="btn_text_size" format="dimension"/>
+        <attr name="btn_text_color" format="color"/>
+        <attr name="btn_text_color_down" format="color"/>
+        <attr name="btn_text_color_focus" format="color"/>
+        <attr name="btn_text_color_disable" format="color"/>
+        <attr name="btn_text_inbtn" format="boolean"/>
+        <attr name="btn_text_x" format="dimension"/>
+        <attr name="btn_text_y" format="dimension"/>
+        <attr name="btn_text_width" format="dimension"/>
+        <attr name="btn_text_height" format="dimension"/>
+        <attr name="btn_text_gravity">
+            <enum name="left_top" value="0"/>
+            <enum name="left_center" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="center_top" value="3"/>
+            <enum name="center" value="4"/>
+            <enum name="center_bottom" value="5"/>
+            <enum name="right_top" value="6"/>
+            <enum name="right_center" value="7"/>
+            <enum name="right_bottom" value="8"/>
+            </attr>
+        <attr name="btn_text_layout_gravity">
+            <enum name="left_top" value="0"/>
+            <enum name="left_center" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="center_top" value="3"/>
+            <enum name="center" value="4"/>
+            <enum name="center_bottom" value="5"/>
+            <enum name="right_top" value="6"/>
+            <enum name="right_center" value="7"/>
+            <enum name="right_bottom" value="8"/>
+            </attr> 
+        <attr name="btn_text_line" format="integer"/>
+        <attr name="btn_longdown_time" format="integer"/>
+        <attr name="btn_click_space" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="HKStep">
+        <attr name="step_max_num" format="integer"/>
+        <attr name="step_min_num" format="integer"/>
+        <attr name="step_lbtn_pic_up" format="reference"/>
+        <attr name="step_lbtn_pic_down" format="reference"/>
+        <attr name="step_lbtn_pic_disable" format="reference"/>
+        <attr name="step_rbtn_pic_up" format="reference"/>
+        <attr name="step_rbtn_pic_down" format="reference"/>
+        <attr name="step_rbtn_pic_disable" format="reference"/>
+        <attr name="step_pic_bg" format="reference"/>
+        <attr name="step_pic_space" format="dimension"/>
+        <attr name="step_pic_scale" format="boolean"/>
+        <attr name="step_text_size" format="dimension"/>
+        <attr name="step_text_color" format="color"/>
+        <attr name="step_repeat" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="HKSeekBar">
+        <attr name="skb_max_num" format="integer"/>
+        <attr name="skb_min_num" format="integer"/>
+        <attr name="skb_step" format="integer"/>
+        <attr name="skb_unit" format="string"/>
+        <attr name="skb_slide_distance" format="dimension"/>
+        <attr name="skb_bg_up" format="reference"/>
+        <attr name="skb_bg_down" format="reference"/>
+        <attr name="skb_bg_disable" format="reference"/>
+        <attr name="skb_color_up" format="reference"/>
+        <attr name="skb_color_down" format="reference"/>
+        <attr name="skb_color_disable" format="reference"/>
+        <attr name="skb_block_up" format="reference"/>
+        <attr name="skb_block_down" format="reference"/>
+        <attr name="skb_block_disable" format="reference"/>  
+        <attr name="skb_pic_scale" format="boolean"/>        
+        <attr name="skb_color_x" format="dimension"/>
+        <attr name="skb_color_y" format="dimension"/>
+        <attr name="skb_block_x" format="dimension"/>
+        <attr name="skb_block_y" format="dimension"/>
+        <attr name="skb_hot_width" format="dimension"/>
+        <attr name="skb_hot_height" format="dimension"/>
+        <attr name="skb_direction">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+            </attr>
+        <attr name="skb_release_location" format="boolean"/>
+        <attr name="skb_text_size" format="dimension"/>
+        <attr name="skb_text_color" format="color"/>
+        <attr name="skb_text_width" format="dimension"/>
+        <attr name="skb_text_height" format="dimension"/>
+        <attr name="skb_text_lshow" format="boolean"/>
+        <attr name="skb_text_rshow" format="boolean"/>
+        <attr name="skb_text_lrchange" format="boolean"/>
+        <attr name="skb_text_format">
+            <enum name="number" value="0"/>
+            <enum name="time" value="1"/>
+            <enum name="time_hms" value="2"/>
+            </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="HKScrollBar">
+        <attr name="scb_slide_distance" format="dimension"/>
+        <attr name="scb_bg" format="reference"/>
+        <attr name="scb_color_up" format="reference"/>
+        <attr name="scb_color_down" format="reference"/>
+        <attr name="scb_color_head" format="reference"/>
+        <attr name="scb_color_tail" format="reference"/>
+        <attr name="scb_pic_scale" format="boolean"/>        
+        <attr name="scb_color_x" format="dimension"/>
+        <attr name="scb_color_y" format="dimension"/>
+        <attr name="scb_hot_width" format="dimension"/>
+        <attr name="scb_hot_height" format="dimension"/>
+        <attr name="scb_direction">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+            </attr>
+        <attr name="scb_can_touch" format="boolean"/>
+        <attr name="scb_mode">
+            <enum name="stretch" value="0"/>
+            <enum name="fixed" value="1"/>
+            </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="HKSwitch">
+        <attr name="swt_slide_distance" format="dimension"/>
+        <attr name="swt_bg_up" format="reference"/>
+        <attr name="swt_bg_down" format="reference"/>
+        <attr name="swt_bg_disable" format="reference"/>
+        <attr name="swt_color_up" format="reference"/>
+        <attr name="swt_color_down" format="reference"/>
+        <attr name="swt_color_disable" format="reference"/>
+        <attr name="swt_block_up" format="reference"/>
+        <attr name="swt_block_down" format="reference"/>
+        <attr name="swt_block_disable" format="reference"/>  
+        <attr name="swt_pic_scale" format="boolean"/>
+        <attr name="swt_color_x" format="dimension"/>
+        <attr name="swt_color_y" format="dimension"/>
+        <attr name="swt_block_x" format="dimension"/>
+        <attr name="swt_block_y" format="dimension"/>
+        <attr name="swt_hot_width" format="dimension"/>
+        <attr name="swt_hot_height" format="dimension"/>
+        <attr name="swt_direction">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+            </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="HKClock">
+        <attr name="clock_bg" format="reference"/>
+        <attr name="clock_hour" format="reference"/>
+        <attr name="clock_minute" format="reference"/>
+        <attr name="clock_second" format="reference"/>
+        <attr name="clock_pic_scale" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="HKDigitalClock">
+        <attr name="dgclock_num0" format="reference"/>
+        <attr name="dgclock_num1" format="reference"/>
+        <attr name="dgclock_num2" format="reference"/>
+        <attr name="dgclock_num3" format="reference"/>
+        <attr name="dgclock_num4" format="reference"/>
+        <attr name="dgclock_num5" format="reference"/>
+        <attr name="dgclock_num6" format="reference"/>
+        <attr name="dgclock_num7" format="reference"/>
+        <attr name="dgclock_num8" format="reference"/>
+        <attr name="dgclock_num9" format="reference"/>
+        <attr name="dgclock_am" format="reference"/>
+        <attr name="dgclock_pm" format="reference"/>
+        <attr name="dgclock_colon" format="reference"/>
+        <attr name="dgclock_pic_scale" format="boolean"/>
+        <attr name="dgclock_ignore_second" format="boolean"/>
+        <attr name="dgclock_mode_gravity">
+            <enum name="left_top" value="0"/>
+            <enum name="left_center" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="right_top" value="6"/>
+            <enum name="right_center" value="7"/>
+            <enum name="right_bottom" value="8"/>
+            </attr> 
+    </declare-styleable>
+    
+    <declare-styleable name="HKLoading">
+        <attr name="loading_pic1" format="reference"/>
+        <attr name="loading_pic2" format="reference"/>
+        <attr name="loading_pic3" format="reference"/>
+        <attr name="loading_pic4" format="reference"/>
+        <attr name="loading_pic5" format="reference"/>
+        <attr name="loading_pic6" format="reference"/>
+        <attr name="loading_pic7" format="reference"/>
+        <attr name="loading_pic8" format="reference"/>
+        <attr name="loading_pic9" format="reference"/>
+        <attr name="loading_pic10" format="reference"/>
+        <attr name="loading_pic11" format="reference"/>
+        <attr name="loading_pic12" format="reference"/>
+        <attr name="loading_pic_scale" format="boolean"/>
+        <attr name="loading_frequency" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="HKImageView">
+        <attr name="image_bg" format="reference"/>
+        <attr name="image_pic_scale" format="boolean"/>
+        <attr name="image_can_touch" format="boolean"/>
+        <attr name="image_hot_width" format="dimension"/>
+        <attr name="image_hot_height" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="HKCircleBar">
+        <attr name="ccb_bg" format="reference"/>
+        <attr name="ccb_block" format="reference"/>
+        <attr name="ccb_min_angle" format="float"/>
+        <attr name="ccb_max_angle" format="float"/>
+        <attr name="ccb_pic_scale" format="boolean"/>
+        <attr name="ccb_can_touch" format="boolean"/>
+    </declare-styleable>
+</resources>
